@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.header__name {
+    font-size: 32px;
+    font-weight: 800;
+}
+.input-row {
+    border: 1px gray double;
+    padding: 2px;
+}
+.task {
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    width: 100%;
+}
+.list {
+    padding-top: 8px;
+    border: 1px gray double;
+    width: 500px;
+    gap:5px;
+    display:flex;
+    flex-direction: column;
+}
+.task__text {
+    width: 100%;
+}
